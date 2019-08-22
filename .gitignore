@@ -1,0 +1,88 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.dat
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/asr_plugin/src/main/jniLibs/arm64-v8a/libBaiduSpeechSDK.so
+**/android/asr_plugin/src/main/jniLibs/arm64-v8a/libvad.dnn.so
+**/android/asr_plugin/src/main/jniLibs/x86/libBaiduSpeechSDK.so
+**/android/asr_plugin/src/main/jniLibs/x86/libvad.dnn.so
+**/android/asr_plugin/src/main/jniLibs/x86_64/libBaiduSpeechSDK.so
+**/android/asr_plugin/src/main/jniLibs/x86_64/libvad.dnn.so
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/plugin/BDSClientLib/libBaiduSpeechSDK.a
+**/ios/plugin/BDSClientEASRResources/bds_easr_basic_model.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_dnn_wakeup_model.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_gramm.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_input_model.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_mfe_cmvn.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_mfe_dnn.dat
+**/ios/plugin/BDSClientEASRResources/bds_easr_wakeup_words.dat
+**/ios/plugin/BDSClientEASRResources/bds_license.dat
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
